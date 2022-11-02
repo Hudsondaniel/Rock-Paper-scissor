@@ -1,0 +1,19 @@
+
+
+@font-face {
+    font-family: 'milkhoney';
+    src: url(Assets/Font/orangejuice.ttf) format('truetype'); 
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'milkhoney', serif;
+}
+
+h1{
+    font-family: 'milkhoney', serif;
+    color: green;
+
+}
