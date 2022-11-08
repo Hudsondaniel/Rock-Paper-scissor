@@ -1,0 +1,19 @@
+{
+  "name": "rock-paper-scissor",
+  "version": "1.0.0",
+  "description": "First time playing around with Javascript!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hudsondaniel/Rock-Paper-scissor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hudsondaniel/Rock-Paper-scissor/issues"
+  },
+  "homepage": "https://github.com/Hudsondaniel/Rock-Paper-scissor#readme"
+}
