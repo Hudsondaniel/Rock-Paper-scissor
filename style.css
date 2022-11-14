@@ -12,7 +12,7 @@ body{
     box-sizing: border-box;
     display: block;
     font-family:'milkhoney', serif; 
-    background-image: url("Assets/Images/bg2-red.jpg");
+    background-image: url(Assets/Images/9zly_8ztc_210511.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -37,13 +37,18 @@ body{
 
 .rock-paper-scissor{
     background-color: white;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 25px 0px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 0.15em solid;
+    border-color: #006400;
+    border-radius: 0.5em;
+    background-image: url(Assets/Images/lvxj_twey_210409.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 
@@ -51,22 +56,31 @@ body{
     display: flex;
     margin: auto;
     margin-top: 50px;
+    padding: 0px;
 }
 
 .rock{
-    border: 0.3em solid;
+    width: 250px;
+    height: 200px;
+    border: 0.2em solid;
+    border-color: #006400;
     margin-right: 50px;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
 }
 
 .scissor{
-    
-    border: 0.3em solid;
+    width: 200px;
+    height: 200px;
+    border: 0.2em solid;
+    border-color: #006400;
     margin-right: 50px;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
 }
 
 .paper{
-    border: 0.3em solid;
-    border-radius: 0.5em;
+    width: 250px;
+    height: 200px;
+    border: 0.2em solid;
+    border-color: #006400;
+    border-radius: 0.3em;
 }
