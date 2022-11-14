@@ -31,7 +31,7 @@ body{
      flex-direction: column;
      align-items: center;
      justify-content: center;
-   
+     
    
 }
 
@@ -42,7 +42,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 0.15em solid;
+    border: 0.2em solid;
     border-color: #006400;
     border-radius: 0.5em;
     background-image: url(Assets/Images/lvxj_twey_210409.jpg);
@@ -66,6 +66,14 @@ body{
     border-color: #006400;
     margin-right: 50px;
     border-radius: 0.3em;
+    transition: 0.3s;
+}
+
+.rock:hover{
+    transform: scale(1.15);
+    background: black ;
+    box-shadow: 4px 4px 4px black;
+    z-index: 2;
 }
 
 .scissor{
@@ -75,6 +83,14 @@ body{
     border-color: #006400;
     margin-right: 50px;
     border-radius: 0.3em;
+    transition: 0.3s;
+}
+
+.scissor:hover{
+    transform: scale(1.15);
+    background: black ;
+    box-shadow: 4px 4px 4px black;
+    z-index: 2;
 }
 
 .paper{
@@ -83,4 +99,12 @@ body{
     border: 0.2em solid;
     border-color: #006400;
     border-radius: 0.3em;
+    transition: 0.3s;
+}
+
+.paper:hover{
+    transform: scale(1.15);
+    background: black ;
+    box-shadow: 4px 4px 4px black;
+    z-index: 2;
 }
